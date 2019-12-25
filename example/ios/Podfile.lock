@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - wowza_flutter_plugin (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - wowza_flutter_plugin (from `.symlinks/plugins/wowza_flutter_plugin/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  wowza_flutter_plugin:
+    :path: ".symlinks/plugins/wowza_flutter_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  wowza_flutter_plugin: 2376062679b7b0c959bdc3f25da48528d9baf5c7
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.8.4
