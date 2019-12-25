@@ -19,7 +19,6 @@ public class FlutterWowzaBroadcast: NSObject, FlutterPlatformView, WOWZBroadcast
         self.messenger = messenger
         self.viewId = viewId
         myView = UIView(frame: frame)
-        self.myView?.backgroundColor = UIColor.red
         observation = myView!.layer.observe(\.bounds,options: [.old, .new]) { object, change in
             print("myDate changed from: \(change.oldValue!), updated to: \(change.newValue!)")
             self.goCoder?.cameraView = self.myView!
