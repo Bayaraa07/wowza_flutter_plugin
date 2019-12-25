@@ -25,13 +25,13 @@ class _BroadcastState extends State<Broadcast> {
         child: Container(
           child: WowzaBroadcast(
               onWowzaCreated: onWowzaCreated,
-              sdkKey: "GOSK-4847-010C-DE12-C892-2525",
-              host: "cb8a37.entrypoint.cloud.wowza.com",
+              sdkKey: "AAAA-AAAA-AAAA-AAAA-AAAA-AAAA",
+              host: "AAAA.entrypoint.cloud.wowza.com",
               port: 1935,
-              appName: "app-f6da",
-              streamName: "26f8f354",
-              userName: "client47754",
-              password: "60119cab")
+              appName: "AAAA",
+              streamName: "AAAA",
+              userName: "AAAA",
+              password: "AAAA")
           ,
           height: 300.0,
           width: 200.0,
