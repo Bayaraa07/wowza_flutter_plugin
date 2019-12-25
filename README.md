@@ -33,7 +33,7 @@ In order for plugin to work correctly, you need to add new key to `ios/Runner/In
 
 #### Android
 
-In order for plugin to work correctly, you need to add permissions to `android/app/src/main/res/AndroidMenifest.xml`
+In order for plugin to work correctly, you need to add permissions to `android/app/src/main/res/AndroidManifest.xml`
 
 ```xml
     <uses-permission android:name="android.permission.CAMERA" />
@@ -42,6 +42,8 @@ In order for plugin to work correctly, you need to add permissions to `android/a
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 ```
+and allow this permissions
+
 minimum SDK of 21
 
 
@@ -100,6 +102,6 @@ class _BroadcastState extends State<Broadcast> {
 }
 ```
 
-sdkKey, host, apppName etc.
-Replace your key
+sdkKey, host, apppName etc. replace your key
+
 Please read more Wowza [documentation](https://www.wowza.com/docs/how-to-build-a-basic-app-with-gocoder-sdk-for-android)
