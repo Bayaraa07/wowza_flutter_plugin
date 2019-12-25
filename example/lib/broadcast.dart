@@ -31,10 +31,7 @@ class _BroadcastState extends State<Broadcast> {
               appName: "AAAA",
               streamName: "AAAA",
               userName: "AAAA",
-              password: "AAAA")
-          ,
-          height: 300.0,
-          width: 200.0,
+              password: "AAAA"),
         ),
       ),
       floatingActionButton: FloatingActionButton(
@@ -49,6 +46,5 @@ class _BroadcastState extends State<Broadcast> {
 
   void onWowzaCreated(wowzaController) {
     this.wowzaController = wowzaController;
-    //this.wowzaController.toggle();
   }
 }
