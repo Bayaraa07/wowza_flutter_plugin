@@ -208,7 +208,7 @@ public class FlutterWowzaBroadcast implements PlatformView, MethodChannel.Method
         goCoderBroadcaster = new WOWZBroadcast();
 
 // Create a configuration instance for the broadcaster
-        goCoderBroadcastConfig = new WOWZBroadcastConfig(WOWZMediaConfig.FRAME_SIZE_1920x1080);
+        goCoderBroadcastConfig = new WOWZBroadcastConfig(WOWZMediaConfig.FRAME_SIZE_320x240);
 
 // Set the connection properties for the target Wowza Streaming Engine server or Wowza Streaming Cloud live stream
         goCoderBroadcastConfig.setHostAddress(host);
