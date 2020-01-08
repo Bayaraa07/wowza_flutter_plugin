@@ -34,7 +34,7 @@ public class FlutterWowzaBroadcast: NSObject, FlutterPlatformView, WOWZBroadcast
         if goCoder != nil{
             //Config
             let config = goCoder!.config
-            config.load(WOWZFrameSizePreset.preset352x288)
+            config.load(WOWZFrameSizePreset.preset1280x720)
             // Set the connection properties for the target Wowza Streaming Engine server or Wowza Streaming Cloud live stream
             config.hostAddress = args["host"] as? String
             config.portNumber = args["port"] as! UInt
